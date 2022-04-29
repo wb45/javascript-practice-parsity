@@ -1,0 +1,21 @@
+//DOG YEARS
+const myAge = 21;
+// the value of 21 is assigned to the set variable with a name of myAge
+
+let earlyYears = 2;
+// 2 is the value assigned to variable named earlyYears ... with let you can reassing its value
+earlyYears *= 10.5;
+
+let laterYears = myAge - 2;
+// myAge minus 2 is the value assigned to laterYears
+
+laterYears *= 4;
+// 4 multiplied by laterYears is assigned as the new value for laterYears
+console.log(laterYears);
+
+let myAgeInDogYears = earlyYears + laterYears;
+// the sum of earlyYears and laterYears is assigned to variable named myAgeInDogYears
+
+const myName = 'Walter'.toLowerCase();
+
+console.log("My name is " + myName + ". I am " + myAge + " years old in human years which is " + myAgeInDogYears + " years old in dog years.");
